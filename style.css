@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#value1{
+    width: 100px;
+    height: 26px;
+    margin-left: 5px;
+    border-radius: 6px;
+} 
+
+#value2{
+    width: 100px;
+    height: 26px;
+    margin-left: 5px;
+    border-radius: 6px;
+}
+
+#input{
+    height: 26px;
+    margin-left: 5px;
+    border-radius: 6px;
+}
+
+#btn{
+  width: 100px;
+  height: 26px;
+  font-size: large;  
+  margin-left: 5px;
+  border-radius: 6px;
+}
+
+#result{
+    font-size: large;
+    margin: 15px 0px 0px 5px;
+    border-radius: 6px;
+}
+
+span{
+    margin-left: 5px;
+    border-radius: 6px;
+}

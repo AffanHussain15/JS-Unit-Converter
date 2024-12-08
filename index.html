@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div>
+        <h1>Unit Converter</h1>
+        <input type="text" placeholder="Enter Value" id="input" />
+        <select id="value1">
+          <option selected hidden>select</option>
+          <option value="kilometer">KiloMeter</option>
+          <option value="meter">Meter</option>
+          <option value="miles">Miles</option>
+        </select>
+        <span>To </span>
+        <select id="value2">
+            <option selected hidden>select</option>
+          <option value="kilometer">KiloMeter</option>
+          <option value="meter">Meter</option>
+          <option value="miles">Miles</option>
+        </select>
+        <button id="btn">Convert</button>
+        <div id="result">
+          <p>Conversion Result: <span id="convertedvalue">0</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- 
+To create a unit converter using HTML, CSS, and JavaScript, follow these steps in a concise approach:
+Approach to Create a Unit Converter
+1. HTML Structure:
+    * Use a form with input fields and dropdowns for value entry, source unit, and target unit.
+    * Include a button to trigger the conversion.
+    * Display the conversion result dynamically.
+2. CSS Styling:
+    * Use simple styles for layout, spacing, and element alignment.
+    * Style the button for hover effects to enhance user interaction.
+3. JavaScript Logic:
+    * Define conversion rates in an object for different units.
+    * Listen for the "click" event on the convert button.
+    * Retrieve the input value, source unit, and target unit.
+    * Perform the conversion using the defined rates.
+    * Display the result to the user.
+This approach keeps the solution modular, with clear separation of HTML, CSS, and JavaScript, and ensures the user can interact with the app intuitively. -->
